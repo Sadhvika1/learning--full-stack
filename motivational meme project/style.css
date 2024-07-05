@@ -1,0 +1,20 @@
+h1{
+    font: "Libre Baskerville",arial;
+}
+html{
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.img
+{
+    width: 100px;
+}
+#no
+{
+    border: 20px solid white;
+    margin-left: 25px;
+    padding: 50px;
+    margin: 50px;
+}
