@@ -1,20 +1,21 @@
 *{
     margin: 0;
     padding: 0;
-}
+} 
 nav{
-    background-color: yellow;
-    color:brown;
+    background-color: rgb(245, 245, 204);
+    color:black;
     height: 48px;
     font-size: larger;
     display:flex;
     align-items: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: "Bungee Spice", sans-serif;
+}
 nav ul{
     list-style-type:none;
 }
 .game{
-    background-color: red ;
+    background-color:beige ;
     display:flex;
     justify-content: center;
     margin-top: 50px;
@@ -30,12 +31,31 @@ nav ul{
  border:2px solid black;
  font-size: 8vw;
  display:flex;
+ cursor :pointer;
  justify-content: center;
  align-items: center;
 }
 .box:hover{
     background-color: brown;
    }
-.box text{
 
+
+.gameinfo{
+    padding : 0 30px;
+
+}
+.imgbox img{
+    display: none;
+}
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left:0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
 }
