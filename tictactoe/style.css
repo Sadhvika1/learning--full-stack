@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: yellow;
+    color:brown;
+    height: 48px;
+    font-size: larger;
+    display:flex;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+nav ul{
+    list-style-type:none;
+}
+.game{
+
+}
+.container{
+
+}
+.box{
+
+}
+.box text{
+
+}
