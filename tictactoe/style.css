@@ -21,6 +21,9 @@ nav ul{
     margin-top: 50px;
 
 }
+.gameinfo h1{
+    font-size: 3rem;
+}
 .container{
        display:grid;
        grid-template-rows:repeat(3,10vw);
@@ -39,13 +42,19 @@ nav ul{
     background-color: brown;
    }
 
-
+.info{
+    font-size: 25px;
+}
 .gameinfo{
     padding : 0 30px;
+    font-size: medium;
+    font-family: "Bungee Spice", sans-serif;
+
 
 }
 .imgbox img{
-    display: none;
+    width: 0;
+    transition : width 2s ease-in-out;
 }
 .br-0{
     border-right: 0;
@@ -59,3 +68,23 @@ nav ul{
 .bb-0{
     border-bottom: 0;
 }
+
+#reset{
+     margin: 0px  23px;
+     padding:0px 14px;
+     background:whitesmoke;
+     border-radius: 60px;
+     cursor:pointer;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: larger;
+     font-weight: 200;
+
+}
+@media only screen and (max-width: 800px) {
+   .game{
+    flex-wrap: wrap;
+   }
+   .gameinfo{
+    margin-top: auto;
+   }
+  }
